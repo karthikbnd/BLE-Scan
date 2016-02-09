@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Tue, 17 Apr 2012 21:55:00 -0300
+Source: antidote
+Binary: antidote-dev antidote-dev-doc antidote-lib antidote
+Architecture: source armhf
+Version: 2.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Ádrian Lívio Vasconcelos Guedes <adrian.guedes@signove.com>
+Changed-By: Elvis Pfutzenreuter <epx@signove.com>
+Description:
+ antidote   - The IEEE 11073 Protocol Library is a communication layer between
+ antidote-dev - The IEEE 11073 Protocol Library is a communication layer between
+ antidote-dev-doc - The IEEE 11073 Protocol Library is a communication layer between
+ antidote-lib - The IEEE 11073 Protocol Library is a communication layer between
+Changes:
+ antidote (2.1-1) unstable; urgency=low
+ .
+   * Bumped version
+Checksums-Sha1:
+ e219242a827a87ec87a2a13fe1bc1528618ebca3 841 antidote_2.1-1.dsc
+ 72787e758eea5c4c3b1da0dcbcef8e9c1a841ab5 2158416 antidote_2.1-1.tar.gz
+ a1a0c0631a696d9d2d924836b0b21a035562200a 153802 antidote-dev_2.1-1_armhf.deb
+ 0f0a3a97ff6b6667e594b27d8fdb7c91475230c1 59614844 antidote-dev-doc_2.1-1_armhf.deb
+ e176bba0723f57219eaf04664dd05846ab2f9be6 113772 antidote-lib_2.1-1_armhf.deb
+ 2c2181f8ddb17216d01582f33c29aece336daea4 43190 antidote_2.1-1_armhf.deb
+Checksums-Sha256:
+ c84b65ea11eaf449218fab3579da1d5a28f7cd629821fa73d6c495afbd81d712 841 antidote_2.1-1.dsc
+ 063a63f540768c45800d87785181c22df0ce4350f597e2fe9f2d6d750d9726fc 2158416 antidote_2.1-1.tar.gz
+ cb32665cdac72c5b669b4d2378cdcb6fb20ec1edf9ab6207c9f1e1785db3da1b 153802 antidote-dev_2.1-1_armhf.deb
+ 65906c0f7372a2683a4cfb5c2581915fb28478c970dbb933d1d68426c9da9ba8 59614844 antidote-dev-doc_2.1-1_armhf.deb
+ 74dbd25534045634c3fe5f4cc4de8b30429d2b139e9c5a0ce98151f33c1b8aa5 113772 antidote-lib_2.1-1_armhf.deb
+ a7d1dfb3b255a0e700a382575ed529504d83ec81c623d0064fd5356b759185b7 43190 antidote_2.1-1_armhf.deb
+Files:
+ 947daba869da18b61e01508568401e1b 153802 libdevel extra antidote-dev_2.1-1_armhf.deb
+ f96824c8d7e83ec4d71975940e6a60be 59614844 libdevel extra antidote-dev-doc_2.1-1_armhf.deb
+ 969f4988b01c52a5fbc5f7b114204cf0 113772 libs extra antidote-lib_2.1-1_armhf.deb
+ a8a6559600b47eb178eefb31db5b44e2 43190 libs extra antidote_2.1-1_armhf.deb
+ 9dffb120c67752d7579479bf6e09ad8c 841 libs extra antidote_2.1-1.dsc
+ 5c0f4554611133482e1dfbb16a24cb56 2158416 libs extra antidote_2.1-1.tar.gz
