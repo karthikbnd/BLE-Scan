@@ -1,4 +1,5 @@
 //var earthR = 6371;
+//here the Lat and Lon are the latitudes and longitudes coordinates
 //Reference Node 1
 var LatA = 700;                 //x1
 var LonA = 1100;                        //y1
