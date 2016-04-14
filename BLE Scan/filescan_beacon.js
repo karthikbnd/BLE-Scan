@@ -8,3 +8,23 @@ Bleacon.on('discover', function(bleacon) {
 });
 
 Bleacon.stopScanning();
+
+
+//Another file
+
+var Bleacon = require('bleacon');
+var noble = require('noble');
+var interval = setInterval(Beacon_scanning, 10000);
+function Beacon_scanning(){
+Bleacon.startScanning();
+}
+
+Bleacon.on('discover', function(bleacon){
+        //var obj = (bleacon);
+        //return obj;
+        if(bleacon.MAC_Address == "c6:3b:45:94:28:7d")console.log(JSON.stringify(bleacon));
+        //console.log(bleacon);
+});
+
+//Bleacon.stopScanning();
+
